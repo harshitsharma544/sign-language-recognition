@@ -42,6 +42,10 @@ pip install -r requirements.txt
 python src/predict.py
 ```
 
+## 🎬 Demo
+
+![Demo](demo .gif)
+
 ## 🎯 Use Case
 
 Helps speech- and hearing-impaired individuals communicate effectively.
