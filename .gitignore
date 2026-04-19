@@ -1,0 +1,4 @@
+data_processed/
+venv/
+__pycache__/
+*.pyc
