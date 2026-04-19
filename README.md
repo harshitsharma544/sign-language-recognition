@@ -59,4 +59,6 @@ Helps speech- and hearing-impaired individuals communicate effectively.
 
 ---
 
+> Note: Large processed datasets are excluded due to size constraints.
+
 ⭐ If you like this project, give it a star!
