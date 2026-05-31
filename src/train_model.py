@@ -45,3 +45,8 @@ model.fit(X, y, epochs=20)
 model.save("models/sign_model.h5")
 
 print("✅ Frame-based model trained and saved!")
+
+
+
+
+

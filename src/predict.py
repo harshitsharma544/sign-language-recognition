@@ -64,7 +64,7 @@ while cap.isOpened():
             # prediction
             input_data = np.array(landmarks).reshape(1, -1)
             prediction = model.predict(input_data, verbose=0)[0]
-
+            print(prediction)
             confidence = np.max(prediction)
             predicted_word = actions[np.argmax(prediction)]
 

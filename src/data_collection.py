@@ -24,7 +24,7 @@ for action in actions:
 
         frame_count = 0
 
-        #print(f"Processing: {video_path}")  # ✅ DEBUG
+        #print(f"Processing: {video_path}")  #  DEBUG
 
         while cap.isOpened():
             ret, frame = cap.read()
@@ -49,7 +49,7 @@ for action in actions:
                             lm.z
                         ])
 
-                    if len(landmarks) == 63:  # ✅ safety check
+                    if len(landmarks) == 63:  #  safety check
                         np.save(
                             os.path.join(save_action_path, f"{video}_{frame_count}.npy"),
                             landmarks
